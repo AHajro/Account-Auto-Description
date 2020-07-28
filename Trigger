@@ -1,0 +1,5 @@
+trigger AutoDescription on Account (before insert) {
+
+    AccountAutoDsc.Dsc(trigger.new);
+
+}
