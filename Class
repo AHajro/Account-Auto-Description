@@ -1,0 +1,13 @@
+public class AccountAutoDsc{
+    
+    public static void Dsc(List <Account> newAcc){
+        
+        system.debug('Start - Auto Description');
+        
+    for(Account acc : newAcc){
+        acc.Description='Kjo fushe eshte e autopopulluar.';  
+        
+        system.debug('New Account: ' + acc.Id);
+        }
+    }
+}
